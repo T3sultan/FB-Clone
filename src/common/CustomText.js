@@ -47,6 +47,7 @@ const CustomText = props => {
     black,
     description,
     numberOfLines,
+    fontWeight,
   } = props;
   return (
     <RNText
@@ -95,6 +96,7 @@ const CustomText = props => {
         fw500 && { fontWeight: "500" },
         fw600 && { fontWeight: "600" },
         fwBold && { fontWeight: "bold" },
+        fontWeight && { fontWeight: "900" },
         lh && { lineHeight: lh },
         style,
       ]}

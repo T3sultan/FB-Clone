@@ -7,6 +7,7 @@ const metrics = {
   start: scale(5),
   header: scale(60),
   base: scale(20),
+  fb: scale(27),
   baseDouble: scale(30),
   halfBase: scale(10),
   doubleBase: scale(40),
@@ -18,6 +19,7 @@ const metrics = {
   splashWidth: scale(300),
   splashHeight: scale(300),
   fbHeader: scale(120),
+  OneH: scale(100),
 };
 
 export default metrics;
