@@ -1,8 +1,8 @@
 const type = {
-  base: "EncodedSansRegular",
-  baseBold: "EncodedSansBold",
-  bold: "MontserratBold",
-  boldRegular: "MontserratRegular",
+  base: "EncodedSans-Regular",
+  baseBold: "EncodedSans-Bold",
+  bold: "Montserrat-Bold",
+  boldRegular: "Montserrat-Regular",
 };
 const size = {
   small: 10,

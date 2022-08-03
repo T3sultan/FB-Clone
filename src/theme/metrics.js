@@ -17,6 +17,7 @@ const metrics = {
   btnBorderRadius: scale(20),
   splashWidth: scale(300),
   splashHeight: scale(300),
+  fbHeader: scale(120),
 };
 
 export default metrics;
