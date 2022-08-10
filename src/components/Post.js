@@ -4,6 +4,9 @@ import PostHeader from "./PostHeader";
 import { Colors, Metrics } from "../theme";
 import PostCaption from "./PostCaption";
 import PostImage from "./PostImage";
+import PostLikes from "./PostLikes";
+import PostReact from "./PostReact";
+import PostComments from "./PostComments";
 
 const Post = ({ post }) => {
   return (
@@ -11,6 +14,9 @@ const Post = ({ post }) => {
       <PostHeader post={post} />
       <PostCaption post={post} />
       <PostImage post={post} />
+      <PostLikes post={post} />
+      <PostReact post={post} />
+      <PostComments post={post} />
     </View>
   );
 };
