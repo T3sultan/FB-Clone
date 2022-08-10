@@ -15,18 +15,14 @@ export default function App() {
   if (!fontsLoaded) {
     return null;
   } else {
-    return (
-      <SafeAreaProvider style={styles.container}>
-        <Home />
-      </SafeAreaProvider>
-    );
+    return <Home />;
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: "#fff",
+    // flex: 1,
+    // backgroundColor: "#fff",
     // alignItems: "center",
     // justifyContent: "center",
   },

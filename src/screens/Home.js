@@ -10,7 +10,7 @@ import { POSTS } from "../data/Posts";
 
 const Home = ({ navigation }) => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ backgroundColor: "#fff" }}>
       <Header />
       <NavBarTab navigation={navigation} />
       <ScrollView showsVerticalScrollIndicator={false}>
