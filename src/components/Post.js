@@ -7,6 +7,7 @@ import PostImage from "./PostImage";
 import PostLikes from "./PostLikes";
 import PostReact from "./PostReact";
 import PostComments from "./PostComments";
+import CommentFooter from "./CommentFooter";
 
 const Post = ({ post }) => {
   return (
@@ -17,6 +18,7 @@ const Post = ({ post }) => {
       <PostLikes post={post} />
       <PostReact post={post} />
       <PostComments post={post} />
+      <CommentFooter post={post} />
     </View>
   );
 };

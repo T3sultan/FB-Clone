@@ -8,37 +8,37 @@ const NavBarTab = ({ navigation }) => {
   return (
     <View style={{ marginTop: metrics.halfBase }}>
       <View style={[styles.wrapper]}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.push("Home")}>
           <Image
             style={styles.homeStyle}
             source={require("../../assets/icons/home.png")}
           />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.push("Friend")}>
           <Image
             style={styles.homeStyle}
             source={require("../../assets/headerIcon/icons8-user-32.png")}
           />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.push("Message")}>
           <Image
             source={require("../../assets/headerIcon/icons8-facebook-messenger-24.png")}
             style={styles.homeStyle}
           />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.push("Notification")}>
           <Image
             source={require("../../assets/headerIcon/icons8-notification-50.png")}
             style={styles.homeStyle}
           />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.push("Videos")}>
           <Image
             source={require("../../assets/headerIcon/icons8-youtube-24.png")}
             style={styles.homeStyle}
           />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.push("Pages")}>
           <Image
             source={require("../../assets/headerIcon/icons8-page-64.png")}
             style={styles.homeStyle}

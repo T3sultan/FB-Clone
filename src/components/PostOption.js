@@ -11,7 +11,7 @@ const PostOption = () => {
             <Image
               style={styles.profileImage}
               source={{
-                uri: "https://scontent.fcgp3-2.fna.fbcdn.net/v/t39.30808-1/277506146_1069221550294421_85169739104812418_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeEaVOed4QjBErdFdwTmrf_3CZLRKZ6RAHgJktEpnpEAeF-y4fYrpxm1Azqb8xXzKniKZexsQGU0yNQzXF1QUWWV&_nc_ohc=wQaSInNaCZsAX8n3GiA&_nc_ht=scontent.fcgp3-2.fna&oh=00_AT8kHsqpGZSpRNEl-GOd6-V4ug-pQsBS5ed3ioN1Zub5qg&oe=62EF6517",
+                uri: "https://scontent.fcgp3-2.fna.fbcdn.net/v/t39.30808-1/277506146_1069221550294421_85169739104812418_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeEaVOed4QjBErdFdwTmrf_3CZLRKZ6RAHgJktEpnpEAeF-y4fYrpxm1Azqb8xXzKniKZexsQGU0yNQzXF1QUWWV&_nc_ohc=FVpxEHP-R2oAX9TkSCi&tn=wka66j603PSDG-DG&_nc_ht=scontent.fcgp3-2.fna&oh=00_AT9S-SVTArJmIsHVgdG7ML1DoEADhWc2Od-FVhg1Z5Leeg&oe=62F94857",
               }}
             />
           </TouchableOpacity>

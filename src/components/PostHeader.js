@@ -13,7 +13,19 @@ const PostHeader = ({ post }) => {
         />
         <View style={{ marginLeft: Metrics.start, justifyContent: "center" }}>
           <CustomText black>{post.username}</CustomText>
-          <CustomText small>{post.time}</CustomText>
+          <View style={{ flexDirection: "row", alignItems: "center" }}>
+            <CustomText small>{post.time}</CustomText>
+            <Image
+              style={{
+                width: Metrics.halfBase,
+                height: Metrics.halfBase,
+                marginLeft: Metrics.start,
+              }}
+              source={{
+                uri: "https://cdn-icons-png.flaticon.com/512/44/44386.png",
+              }}
+            />
+          </View>
         </View>
       </View>
       <View>

@@ -4,6 +4,7 @@ import { useFonts } from "expo-font";
 import CustomText from "./src/common/CustomText";
 import Home from "./src/screens/Home";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import AppNavigation from "./src/navigation/AppNavigation";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -15,7 +16,7 @@ export default function App() {
   if (!fontsLoaded) {
     return null;
   } else {
-    return <Home />;
+    return <AppNavigation />;
   }
 }
 
