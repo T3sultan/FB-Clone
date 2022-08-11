@@ -1,11 +1,16 @@
-import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
 import React from "react";
+import NavBarTab from "../navigation/NavBarTab";
+import Page from "./Page";
 
-const Pages = () => {
+const Pages = ({ navigation }) => {
   return (
-    <View>
-      <Text>Pages</Text>
-    </View>
+    <SafeAreaView style={{ backgroundColor: "#fff" }}>
+      <NavBarTab navigation={navigation} />
+      <ScrollView showsVerticalScrollIndicator={false}>
+        <Page />
+      </ScrollView>
+    </SafeAreaView>
   );
 };
 

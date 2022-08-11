@@ -1,11 +1,14 @@
-import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import React from "react";
+import NavBarTab from "../navigation/NavBarTab";
+import Notifications from "./Notifications";
 
-const Notification = () => {
+const Notification = ({ navigation }) => {
   return (
-    <View>
-      <Text>Notification</Text>
-    </View>
+    <SafeAreaView style={{ backgroundColor: "#fff" }}>
+      <NavBarTab navigation={navigation} />
+      <Notifications />
+    </SafeAreaView>
   );
 };
 

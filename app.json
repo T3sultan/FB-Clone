@@ -3,7 +3,11 @@
     "name": "fb-clone",
     "slug": "fb-clone",
     "version": "1.0.0",
-    "orientation": "portrait",
+
+    "privacy": "public",
+    "description": "This is the facebook font-end design",
+    "version": "1.0.0",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -14,9 +18,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },

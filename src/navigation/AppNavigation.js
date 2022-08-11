@@ -11,14 +11,14 @@ import Pages from "./../screens/Pages";
 
 const Stack = createNativeStackNavigator();
 
-const screenOptions = {
-  headerShown: false,
-};
+// const screenOptions = {
+//   headerShown: false,
+// };
 
 const AppNavigation = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home" screenOptions={screenOptions}>
+      <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Friend" component={Friend} />
         <Stack.Screen name="Message" component={Message} />
